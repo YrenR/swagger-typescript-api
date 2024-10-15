@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "generate-api": "npx swagger-typescript-api -p ./openapi_comun.yaml -o ./repositories/comun-v1 --axios --single-http-client --modular"
+  },
+  "devDependencies": {
+    "axios": "^1.7.7",
+    "swagger-typescript-api": "^13.0.22"
+  }
+}
