@@ -10,7 +10,6 @@
  */
 
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse, HeadersDefaults, ResponseType } from "axios";
-import axios from "axios";
 
 export type QueryParamsType = Record<string | number, any>;
 
@@ -53,8 +52,8 @@ export class HttpClient<SecurityDataType = unknown> {
   private secure?: boolean;
   private format?: ResponseType;
 
-  constructor({ securityWorker, secure, format, ...axiosConfig }: ApiConfig<SecurityDataType> = {}) {
-    this.instance = axios.create({ ...axiosConfig, baseURL: axiosConfig.baseURL || "" });
+  constructor(axiosIntance: AxiosInstance, { securityWorker, secure, format }: ApiConfig<SecurityDataType> = {}) {
+    this.instance = axiosIntance;
     this.secure = secure;
     this.format = format;
     this.securityWorker = securityWorker;

@@ -9,6 +9,8 @@
  * ---------------------------------------------------------------
  */
 
+// HOLAAAAAAAAAAAA?
+
 import {
   AplicableAEnum,
   ArchivoDTOGET,
@@ -46,6 +48,8 @@ export class Comun<SecurityDataType = unknown> {
     this.http = http;
   }
 
+  // algooooooooooo
+
   /**
    * No description
    *
@@ -62,7 +66,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -81,7 +86,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -105,7 +111,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -122,7 +129,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -139,7 +147,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -160,7 +169,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -177,7 +187,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -200,7 +211,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * @description Si no se pasan parámetros, devolverá todas las empresas
    *
@@ -229,7 +241,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -246,7 +259,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -263,7 +277,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -282,7 +297,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -299,7 +315,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * @description *La llamada POST creará el archivo en BBDD en caso de no existir o lo actualizará en caso contrario
    *
@@ -329,7 +346,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       type: ContentType.FormData,
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -345,7 +363,8 @@ export class Comun<SecurityDataType = unknown> {
       method: "DELETE",
       secure: true,
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -362,7 +381,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * @description *Este método necesita únicamente el jwt a través de la URL
    *
@@ -390,7 +410,8 @@ export class Comun<SecurityDataType = unknown> {
       query: query,
       secure: true,
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -405,7 +426,8 @@ export class Comun<SecurityDataType = unknown> {
       method: "GET",
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -420,7 +442,8 @@ export class Comun<SecurityDataType = unknown> {
       method: "GET",
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -446,7 +469,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -465,7 +489,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -482,7 +507,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -499,7 +525,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -518,7 +545,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -535,7 +563,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -552,7 +581,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -581,7 +611,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -605,7 +636,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -624,7 +656,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -644,7 +677,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -667,7 +701,8 @@ export class Comun<SecurityDataType = unknown> {
       type: ContentType.Json,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -687,7 +722,8 @@ export class Comun<SecurityDataType = unknown> {
       secure: true,
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -734,7 +770,8 @@ export class Comun<SecurityDataType = unknown> {
       method: "POST",
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
@@ -752,7 +789,8 @@ export class Comun<SecurityDataType = unknown> {
       method: "POST",
       format: "json",
       ...params,
-    });
+    }); // algooooooooooo
+
   /**
    * No description
    *
